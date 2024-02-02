@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="style.css">
+    <title>Pfiffer Attila</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset class = "kot_m">
+            <legend class = "egyketto">regisztráció</legend>
+            <label for="fname">felhasználónév<sup>*</sup></label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">jelszó<sup>*</sup></label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">e-mail cím<sup>*</sup></label>
+            <input type="email" id="email" name="email"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend class = "egyketto">születés</legend>
+            <div class = "kot_m">
+                <label for="birthday">születési dátum</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+            </div>
+            <fieldset class = "szemelyes">
+                <legend class = "szem">személyes</legend>
+                <div>
+                    <input type="checkbox" id="nyelvek" name="vehicle1" value="Bike">
+                    <label for="vehicle1">angol</label><br>
+                    <input type="checkbox" id="nyelvek" name="vehicle2" value="Car">
+                    <label for="vehicle2">német</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="noferfi" name="fav_language" value="HTML">
+                    <label for="html">férfi</label><br>
+                    <input type="radio" id="noferfi" name="fav_language" value="CSS">
+                    <label for="css">nő</label><br>
+                </div>
+                <div>
+                    <label for="cars">Választott szak:</label>
+                    <select name="cars" id="osztalyok">
+                    <option value="volvo">SzFA1</option>
+                    <option value="saab">SzFA2</option>
+                    <option value="mercedes">SzF1B</option>
+                </div>
+                </select>
+            </fieldset>
+        </fieldset>
+        
+        
+        
+      </form>
+      <input type="submit" value="Regisztráció">
+</body>
+</html>

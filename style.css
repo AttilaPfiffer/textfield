@@ -1,0 +1,56 @@
+#kot_m label::after{
+    content: "*";
+    color: red;
+}
+
+#radio {
+    margin: right;
+}
+fieldset {
+    background-color: lightblue;
+}
+.szemelyes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body {
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+sup {
+    color: red;
+}
+
+.szem {
+    background-color: rgb(127, 127, 226);
+    border: 1px solid black;
+}
+
+.egyketto {
+    background-color: rgb(66, 247, 66);
+    border: 1px solid black;
+    color: white;
+}
+.fname {
+    margin: auto;
+}
+.kot_m input{
+    float: right;
+    clear: both;
+    margin-right: 200px;
+}
+
+.type {
+    float: right;
+    clear: both;
+    margin-right: 200px;
+}
+
+
+
+@media only screen and (max-width: 440px) {
+    
+  }
